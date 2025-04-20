@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+:root {
+  background: rgb(0, 0, 0);
+  color: white;
+}
+
+@theme {
+  --font-amiko: Amiko, sans-serif;
+}
