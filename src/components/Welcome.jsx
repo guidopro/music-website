@@ -24,7 +24,7 @@ export default function Welcome() {
       </div> */}
       <div className="relative">
         <img
-          src="src/assets/cover_bg_2_cropped.jpg"
+          src="images/cover_bg_2_cropped.jpg"
           alt="welcome-pic"
           className="size-full object-contain lg:h-lvh"
         />

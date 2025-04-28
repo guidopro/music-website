@@ -15,7 +15,7 @@ export default function Footer() {
                   target="_blank"
                 >
                   <img
-                    src="/src/assets/bandcamp.png"
+                    src="/images/bandcamp.png"
                     alt="bandcamp"
                     className="h-7 w-7"
                   />
@@ -27,7 +27,7 @@ export default function Footer() {
                   target="_blank"
                 >
                   <img
-                    src="/src/assets/youtube.png"
+                    src="/images/youtube.png"
                     alt="youtube"
                     className="h-8 w-8"
                   />

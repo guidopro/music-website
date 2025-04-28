@@ -18,7 +18,7 @@ export default function MusicPage() {
 
         <h1 className="mt-10 mb-7 text-center text-lg underline">Electronic</h1>
 
-        <div className="mx-7 grid grid-cols-1 gap-7 sm:grid-cols-2 sm:gap-3.5">
+        <div className="mx-7 grid grid-cols-1 gap-7 gap-y-14 sm:grid-cols-2 sm:gap-3.5 sm:gap-y-14">
           <div className="flex justify-center">
             <iframe
               style={{ border: 0, width: 350, height: 350 }}
@@ -39,11 +39,31 @@ export default function MusicPage() {
               <a href="https://stateofjoy.co.uk/album/seeds">Seeds by Guido</a>
             </iframe>
             {/* <iframe
+              style={{ border: 0, width: 400, height: 350 }}
+              src="https://bandcamp.com/EmbeddedPlayer/album=182900996/size=large/bgcol=333333/linkcol=0687f5/artwork=small/transparent=true/"
+              seamless
+            >
+              <a href="https://guidoproductions.bandcamp.com/album/seeds">
+                Seeds by Guido
+              </a>
+            </iframe> */}
+            {/* <iframe
               width="100%"
               height="352"
               allow="autoplay"
               src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1079652901&color=%232f2720&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
             ></iframe> */}
+          </div>
+          <div className="flex justify-center">
+            <iframe
+              style={{ border: 0, width: 350, height: 350 }}
+              src="https://bandcamp.com/EmbeddedPlayer/album=2091450266/size=large/bgcol=333333/linkcol=0f91ff/minimal=true/transparent=true/"
+              seamless
+            >
+              <a href="https://guidoproductions.bandcamp.com/album/blockwork">
+                Blockwork by Guido
+              </a>
+            </iframe>
           </div>
           <div className="flex justify-center">
             <iframe
@@ -64,6 +84,72 @@ export default function MusicPage() {
             >
               <a href="https://stateofjoy.co.uk/album/unknown">
                 Unknown by Guido
+              </a>
+            </iframe>
+          </div>
+          <div className="flex justify-center">
+            <iframe
+              style={{ border: 0, width: 350, height: 350 }}
+              src="https://bandcamp.com/EmbeddedPlayer/album=2640700156/size=large/bgcol=333333/linkcol=0f91ff/minimal=true/transparent=true/"
+              seamless
+            >
+              <a href="https://guidoproductions.bandcamp.com/album/onward">
+                Onward by Guido
+              </a>
+            </iframe>
+          </div>
+          <div className="flex justify-center">
+            <iframe
+              style={{ border: 0, width: 350, height: 350 }}
+              src="https://bandcamp.com/EmbeddedPlayer/album=1337960218/size=large/bgcol=333333/linkcol=0f91ff/minimal=true/transparent=true/"
+              seamless
+            >
+              <a href="https://guidoproductions.bandcamp.com/album/moment-feat-emma-lou-ep">
+                Moment (feat. Emma-Lou) - EP by Guido
+              </a>
+            </iframe>
+          </div>
+          <div className="flex justify-center">
+            <iframe
+              style={{ border: 0, width: 350, height: 350 }}
+              src="https://bandcamp.com/EmbeddedPlayer/album=3489856730/size=large/bgcol=333333/linkcol=0f91ff/minimal=true/transparent=true/"
+              seamless
+            >
+              <a href="https://guidoproductions.bandcamp.com/album/flow-africa-ep">
+                Flow / Africa EP by Guido
+              </a>
+            </iframe>
+          </div>
+          <div className="flex justify-center">
+            <iframe
+              style={{ border: 0, width: 350, height: 350 }}
+              src="https://bandcamp.com/EmbeddedPlayer/album=3791820131/size=large/bgcol=333333/linkcol=0f91ff/minimal=true/transparent=true/"
+              seamless
+            >
+              <a href="https://guidoproductions.bandcamp.com/album/vessel-dogs-micro-x-ep">
+                Vessel Dogs / Micro X EP by Guido
+              </a>
+            </iframe>
+          </div>
+          <div className="flex justify-center">
+            <iframe
+              style={{ border: 0, width: 350, height: 350 }}
+              src="https://bandcamp.com/EmbeddedPlayer/album=1701962006/size=large/bgcol=333333/linkcol=0f91ff/minimal=true/transparent=true/"
+              seamless
+            >
+              <a href="https://tectonicrecordings.bandcamp.com/album/moods-of-future-joy">
+                Moods Of Future Joy by Guido
+              </a>
+            </iframe>
+          </div>
+          <div className="flex justify-center">
+            <iframe
+              style={{ border: 0, width: 350, height: 350 }}
+              src="https://bandcamp.com/EmbeddedPlayer/album=883530109/size=large/bgcol=333333/linkcol=0f91ff/minimal=true/transparent=true/"
+              seamless
+            >
+              <a href="https://guidoproductions.bandcamp.com/album/anidea">
+                Anidea by Guido
               </a>
             </iframe>
           </div>
