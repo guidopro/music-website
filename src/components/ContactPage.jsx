@@ -1,7 +1,9 @@
 export default function ContactPage() {
   return (
     <>
-      <h1 className="m-10 mt-30 text-center text-lg underline">Contact</h1>
+      <h1 className="m-2 mt-30 p-2 text-center text-2xl text-gray-200">
+        Contact
+      </h1>
       <div className="flex justify-center">
         <div className="m-10 flex w-full max-w-xl justify-center rounded-xl shadow-xl inset-shadow-2xs shadow-blue-950/50 inset-shadow-blue-950/50">
           <form
