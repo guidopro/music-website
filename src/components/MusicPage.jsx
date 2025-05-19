@@ -1,3 +1,5 @@
+import ScrollToTopButton from "../utilities/ScrollUpButton";
+
 export default function MusicPage() {
   return (
     <>
@@ -152,7 +154,7 @@ export default function MusicPage() {
         <div className="my-10 flex justify-center">
           <h1 className="text-lg underline decoration-2">Videos</h1>
         </div>
-        <div className="mx-7 mb-52 flex flex-col">
+        <div className="mx-7 mb-10 flex flex-col">
           <div className="flex justify-center">
             <iframe
               width="560"
@@ -166,6 +168,7 @@ export default function MusicPage() {
           </div>
         </div>
       </div>
+      <ScrollToTopButton />
     </>
   );
 }
