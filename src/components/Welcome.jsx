@@ -31,7 +31,7 @@ export default function Welcome() {
         </div>
       </div>
 
-      <div className="relative mt-10 mb-40 flex flex-col bg-black">
+      <div className="relative mt-10 mb-20 flex grow flex-col bg-black">
         <h2 className="m-2 p-2 text-center text-2xl text-gray-200">
           About me...
         </h2>

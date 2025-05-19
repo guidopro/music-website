@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <>
       <div className="relative">
-        <div className="absolute bottom-0 left-0 w-full bg-gray-950 p-5 inset-shadow-2xs inset-shadow-blue-500/20">
+        <div className="w-full bg-gray-950 p-5 inset-shadow-2xs inset-shadow-blue-500/20">
           <div className="flex flex-row items-center">
             <div className="mx-auto opacity-70">
               © Guy Middleton 2025. All rights reserved.
