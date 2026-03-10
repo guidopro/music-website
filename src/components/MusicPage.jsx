@@ -1,4 +1,5 @@
 import ScrollToTopButton from "../utilities/ScrollUpButton";
+import MusicGrid from "./MusicGrid";
 
 export default function MusicPage() {
   return (
@@ -24,130 +25,7 @@ export default function MusicPage() {
           <h1 className="m-7 text-center text-lg underline decoration-emerald-200 decoration-2">
             Electronic
           </h1>
-
-          <div className="flex-rows m-7 flex max-w-7xl flex-wrap justify-center gap-7 bg-black/20">
-            <div className="drop-shadow-lg drop-shadow-white">
-              <iframe
-                style={{ border: 0, width: 350, height: 350 }}
-                src="https://bandcamp.com/EmbeddedPlayer/album=680071508/size=large/bgcol=333333/linkcol=0f91ff/minimal=true/transparent=true/"
-                seamless
-              >
-                <a href="https://liftedicons.bandcamp.com/album/state-of-flux">
-                  State of Flux by Guido
-                </a>
-              </iframe>
-            </div>
-            <div className="drop-shadow-sm drop-shadow-white">
-              <iframe
-                style={{ border: 0, width: 350, height: 350 }}
-                src="https://bandcamp.com/EmbeddedPlayer/album=182900996/size=large/bgcol=333333/linkcol=0f91ff/minimal=true/transparent=true/"
-                seamless
-              >
-                <a href="https://stateofjoy.co.uk/album/seeds">
-                  Seeds by Guido
-                </a>
-              </iframe>
-            </div>
-            <div className="drop-shadow-sm drop-shadow-white">
-              <iframe
-                style={{ border: 0, width: 350, height: 350 }}
-                src="https://bandcamp.com/EmbeddedPlayer/album=2091450266/size=large/bgcol=333333/linkcol=0f91ff/minimal=true/transparent=true/"
-                seamless
-              >
-                <a href="https://guidoproductions.bandcamp.com/album/blockwork">
-                  Blockwork by Guido
-                </a>
-              </iframe>
-            </div>
-            <div className="drop-shadow-sm drop-shadow-white">
-              <iframe
-                style={{ border: 0, width: 350, height: 350 }}
-                src="https://bandcamp.com/EmbeddedPlayer/track=846800963/size=large/bgcol=333333/linkcol=0f91ff/minimal=true/transparent=true/"
-                seamless
-              >
-                <a href="https://stateofjoy.co.uk/track/end-point">
-                  End Point by Guido
-                </a>
-              </iframe>
-            </div>
-            <div className="drop-shadow-sm drop-shadow-white">
-              <iframe
-                style={{ border: 0, width: 350, height: 350 }}
-                src="https://bandcamp.com/EmbeddedPlayer/album=1061028639/size=large/bgcol=333333/linkcol=0f91ff/minimal=true/transparent=true/"
-                seamless
-              >
-                <a href="https://stateofjoy.co.uk/album/unknown">
-                  Unknown by Guido
-                </a>
-              </iframe>
-            </div>
-            <div className="drop-shadow-sm drop-shadow-white">
-              <iframe
-                style={{ border: 0, width: 350, height: 350 }}
-                src="https://bandcamp.com/EmbeddedPlayer/album=2640700156/size=large/bgcol=333333/linkcol=0f91ff/minimal=true/transparent=true/"
-                seamless
-              >
-                <a href="https://guidoproductions.bandcamp.com/album/onward">
-                  Onward by Guido
-                </a>
-              </iframe>
-            </div>
-            <div className="drop-shadow-sm drop-shadow-white">
-              <iframe
-                style={{ border: 0, width: 350, height: 350 }}
-                src="https://bandcamp.com/EmbeddedPlayer/album=1337960218/size=large/bgcol=333333/linkcol=0f91ff/minimal=true/transparent=true/"
-                seamless
-              >
-                <a href="https://guidoproductions.bandcamp.com/album/moment-feat-emma-lou-ep">
-                  Moment (feat. Emma-Lou) - EP by Guido
-                </a>
-              </iframe>
-            </div>
-            <div className="drop-shadow-sm drop-shadow-white">
-              <iframe
-                style={{ border: 0, width: 350, height: 350 }}
-                src="https://bandcamp.com/EmbeddedPlayer/album=3489856730/size=large/bgcol=333333/linkcol=0f91ff/minimal=true/transparent=true/"
-                seamless
-              >
-                <a href="https://guidoproductions.bandcamp.com/album/flow-africa-ep">
-                  Flow / Africa EP by Guido
-                </a>
-              </iframe>
-            </div>
-            <div className="drop-shadow-sm drop-shadow-white">
-              <iframe
-                style={{ border: 0, width: 350, height: 350 }}
-                src="https://bandcamp.com/EmbeddedPlayer/album=3791820131/size=large/bgcol=333333/linkcol=0f91ff/minimal=true/transparent=true/"
-                seamless
-              >
-                <a href="https://guidoproductions.bandcamp.com/album/vessel-dogs-micro-x-ep">
-                  Vessel Dogs / Micro X EP by Guido
-                </a>
-              </iframe>
-            </div>
-            <div className="drop-shadow-sm drop-shadow-white">
-              <iframe
-                style={{ border: 0, width: 350, height: 350 }}
-                src="https://bandcamp.com/EmbeddedPlayer/album=1701962006/size=large/bgcol=333333/linkcol=0f91ff/minimal=true/transparent=true/"
-                seamless
-              >
-                <a href="https://tectonicrecordings.bandcamp.com/album/moods-of-future-joy">
-                  Moods Of Future Joy by Guido
-                </a>
-              </iframe>
-            </div>
-            <div className="drop-shadow-sm drop-shadow-white">
-              <iframe
-                style={{ border: 0, width: 350, height: 350 }}
-                src="https://bandcamp.com/EmbeddedPlayer/album=883530109/size=large/bgcol=333333/linkcol=0f91ff/minimal=true/transparent=true/"
-                seamless
-              >
-                <a href="https://guidoproductions.bandcamp.com/album/anidea">
-                  Anidea by Guido
-                </a>
-              </iframe>
-            </div>
-          </div>
+          <MusicGrid />
         </div>
       </div>
       <div id="videos">
