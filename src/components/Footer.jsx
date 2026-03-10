@@ -25,7 +25,7 @@ export default function Footer() {
               </div>
               <div className="opacity-70">
                 <a
-                  href="https://www.youtube.com/@stateofjoy1588"
+                  href="https://www.youtube.com/@stateofjoymusic"
                   target="_blank"
                 >
                   <img
