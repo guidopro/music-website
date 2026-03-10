@@ -4,7 +4,7 @@ import MusicGrid from "./MusicGrid";
 export default function MusicPage() {
   return (
     <>
-      <div className="mt-30" id="music">
+      <div className="pt-30" id="music">
         <h1 className="my-10 p-2 text-center text-2xl text-gray-200 underline decoration-fuchsia-800 decoration-4">
           Music
         </h1>
