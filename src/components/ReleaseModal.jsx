@@ -1,4 +1,20 @@
+import { useEffect } from "react";
+
 export default function ReleaseModal({ release, onClose }) {
+  useEffect(() => {
+    function handleKeyDown(event) {
+      if (event.key === "Escape") {
+        onClose();
+      }
+    }
+
+    window.addEventListener("keydown", handleKeyDown);
+
+    return () => {
+      window.removeEventListener("keydown", handleKeyDown);
+    };
+  }, [onClose]);
+
   return (
     <div
       className="fixed inset-0 z-50 flex items-center justify-center bg-black/80"
@@ -18,7 +34,7 @@ export default function ReleaseModal({ release, onClose }) {
 
         <button
           onClick={onClose}
-          className="mt-4 w-full rounded bg-fuchsia-800 py-2 text-white hover:bg-fuchsia-700"
+          className="mt-4 w-full cursor-pointer rounded bg-fuchsia-800 py-2 text-white hover:bg-fuchsia-700"
         >
           Close
         </button>
