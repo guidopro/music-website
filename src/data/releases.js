@@ -17,70 +17,92 @@ const releases = [
     title: "Soft Touch",
     artwork: softTouch,
     embed:
-      "https://bandcamp.com/EmbeddedPlayer/track=256926292/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/",
+      "https://bandcamp.com/EmbeddedPlayer/album=2418049723/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/",
+    height: 522,
   },
   {
     title: "High Tide",
     artwork: highTide,
     embed:
-      "https://bandcamp.com/EmbeddedPlayer/track=256926292/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/",
+      "https://bandcamp.com/EmbeddedPlayer/track=256926292/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/",
+    height: 442,
   },
   {
     title: "State of Flux",
     artwork: stateOfFlux,
     embed:
       "https://bandcamp.com/EmbeddedPlayer/album=680071508/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/",
+    height: 621,
   },
   {
     title: "Seeds",
     artwork: seeds,
     embed:
       "https://bandcamp.com/EmbeddedPlayer/album=182900996/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/",
+    height: 654,
   },
   {
     title: "Blockwork",
     artwork: blockwork,
-    embed: "",
+    embed:
+      "https://bandcamp.com/EmbeddedPlayer/album=2091450266/size=large/bgcol=ffffff/linkcol=7137dc/transparent=true/",
+    height: 522,
   },
   {
     title: "End Point",
     artwork: endPoint,
-    embed: "",
+    embed:
+      "https://bandcamp.com/EmbeddedPlayer/track=846800963/size=large/bgcol=ffffff/linkcol=de270f/tracklist=false/transparent=true/",
+    height: 442,
   },
   {
     title: "Unknown",
     artwork: unknown,
-    embed: "",
+    embed:
+      "https://bandcamp.com/EmbeddedPlayer/album=1061028639/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/",
+    height: 588,
   },
   {
     title: "Onward",
     artwork: onward,
-    embed: "",
+    embed:
+      "https://bandcamp.com/EmbeddedPlayer/album=2640700156/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/",
+    height: 522,
   },
   {
     title: "Moment (feat. Emma-Lou)",
     artwork: moment,
-    embed: "",
+    embed:
+      "https://bandcamp.com/EmbeddedPlayer/album=1337960218/size=large/bgcol=ffffff/linkcol=de270f/transparent=true/",
+    height: 588,
   },
   {
     title: "Flow / Africa EP",
     artwork: flow,
-    embed: "",
+    embed:
+      "https://bandcamp.com/EmbeddedPlayer/album=3489856730/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/",
+    height: 555,
   },
   {
     title: "Vessel Dogs / Micro X EP",
     artwork: vesselDogs,
-    embed: "",
+    embed:
+      "https://bandcamp.com/EmbeddedPlayer/album=3791820131/size=large/bgcol=ffffff/linkcol=e99708/transparent=true/",
+    height: 522,
   },
   {
     title: "Moods Of Future Joy",
     artwork: mofj,
-    embed: "",
+    embed:
+      "https://bandcamp.com/EmbeddedPlayer/album=1701962006/size=large/bgcol=ffffff/linkcol=f171a2/transparent=true/",
+    height: 786,
   },
   {
     title: "Anidea",
     artwork: anidea,
-    embed: "",
+    embed:
+      "https://bandcamp.com/EmbeddedPlayer/album=883530109/size=large/bgcol=ffffff/linkcol=7137dc/transparent=true/",
+    height: 786,
   },
 ];
 
