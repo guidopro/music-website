@@ -11,8 +11,16 @@ import flow from "/src/assets/artwork/flow.jpeg";
 import vesselDogs from "/src/assets/artwork/joy001.jpeg";
 import mofj from "/src/assets/artwork/MOFJ.jpeg";
 import anidea from "/src/assets/artwork/anidea.jpeg";
+import groundUp from "/src/assets/artwork/groundup.png";
 
 const releases = [
+  {
+    title: "Ground Up",
+    artwork: groundUp,
+    embed:
+      "https://bandcamp.com/EmbeddedPlayer/album=2891402950/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/",
+    height: 470,
+  },
   {
     title: "Soft Touch",
     artwork: softTouch,
